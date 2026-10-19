@@ -1,0 +1,36 @@
+{
+  "name": "shielddb",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "test": "tsx --test tests/*.test.ts",
+    "provision:account": "node scripts/provision-account.mjs",
+    "provision:demo": "node scripts/provision-account.mjs --demo"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.45.4",
+    "lucide-react": "latest",
+    "next": "latest",
+    "pg": "^8.23.1",
+    "react": "latest",
+    "react-dom": "latest",
+    "recharts": "latest",
+    "swr": "^2.5.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "latest",
+    "@types/node": "latest",
+    "@types/pg": "^8.23.1",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.4.2",
+    "tailwindcss": "latest",
+    "tsx": "^4.19.2",
+    "typescript": "latest"
+  }
+}
